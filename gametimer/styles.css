@@ -1,0 +1,217 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f1e2d;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    margin: 1%;
+    height: 36vh;
+    justify-content: center;
+  }
+
+
+  .header-container{
+    display: flex;
+    height: 10vh;
+    text-align: left;
+    align-items: left;
+  }
+
+  .header-icon{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .timer-display {
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .player-btn {
+    width: 50%;
+    height: 100%;
+    margin: 0.5%;
+    font-size: 100%;
+    border-radius: 10px;
+    background-color: #444444;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    border: 2px solid rgb(205, 205, 43);
+  }
+
+  .player-btn4 {
+    width: 50%;
+    height: 100%;
+    margin: 0.5%;
+    font-size: 100%;
+    border-radius: 10px;
+    background-color: #444444;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    border: 2px solid rgb(205, 205, 43);
+  }
+
+
+  .btn-text-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 80%;
+    padding: 2% 4%;
+    box-sizing: border-box;
+    text-align: left;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .btn-text-time {
+    font-size: 2em;
+    margin: 0;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .player-btn:hover {
+    background-color: #535353;
+  }
+  
+  .player-btn.active {
+    background-color: rgb(205, 205, 43);
+  }
+  
+  .player-btn.active:hover {
+    background-color: rgb(156, 156, 29);
+  }
+  
+  .options-btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    margin-top: auto;
+    
+  }
+  
+  .options-btn {
+    width: 15vw;
+    height: 90%;
+    background-color: #2a3f5c;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(205, 205, 43);
+    align-items: center;
+
+  }
+  
+  .options-btn:hover {
+    background-color: #304a6e;
+  }
+  
+  .options-btn:active {
+    background-color: #3c5681;
+  }
+  
+  .options-btn:active:hover {
+    background-color: #425f92;
+  }
+  
+  .btn-text {
+    font-size: 1rem;
+    align-items: center;
+  }
+
+  .btn-text2 {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 2vh;
+  }
+
+  .modal {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .modal-text{
+    color: #141f32;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 3vh;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  select, input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #0f1e2d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #304a6e;
+  }
+  
+  .hide {
+    display: none;
+    width: 1;
+  }
